@@ -6,3 +6,15 @@ body {
 h1, h2, h3, h4, h5, h6, p {
   color: #fff;
 }
+
+a {
+  display: block;
+}
+fieldset {
+  max-width: 340px;
+}
+fieldset > div {
+  display: grid;
+  max-width: 340px;
+  gap: 8px;
+}
