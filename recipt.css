@@ -1,0 +1,39 @@
+html {
+  scroll-behavior: smooth;
+}
+.main-img {
+  width: 440px;
+}
+.directions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  max-width: 840px;
+}
+ol, ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.garnishes {
+  max-width: 840px;
+}
+.ul-ing {
+  list-style-type: none;
+  font-weight: bold;
+}
+span {
+  font-weight: 400;
+}
+fieldset {
+  max-width: 340px;
+}
+fieldset > div {
+  display: grid;
+  max-width: 340px;
+  gap: 8px;
+}
+
+label {
+ margin-right: 8px;
+}
