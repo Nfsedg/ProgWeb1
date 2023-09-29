@@ -4,9 +4,16 @@ html {
 .main-img {
   width: 440px;
 }
+main {
+  display: grid;
+  width: 100%;
+  max-width: 840px;
+  margin: 12px auto;
+  place-items: center;
+}
 .directions {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 14px;
   max-width: 840px;
 }
@@ -36,4 +43,7 @@ fieldset > div {
 
 label {
  margin-right: 8px;
+}
+footer {
+  margin: 8px;
 }

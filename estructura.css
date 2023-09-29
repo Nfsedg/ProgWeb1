@@ -1,0 +1,47 @@
+body {
+  width: 100%;
+  max-width: 660px;
+  padding: 12px;
+  margin: 12px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(137, 152, 152);
+  width: 100%;
+  padding: 8px;
+}
+nav {
+  width: 180px;
+  background-color: beige;
+}
+main {
+  padding: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: aqua;
+  width: 100%;
+  place-items: center;
+  gap: 8px;
+}
+main > * {
+  background-color: antiquewhite;
+  width: 100%;
+}
+section {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  gap: 8px;
+}
+.aside-box {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
