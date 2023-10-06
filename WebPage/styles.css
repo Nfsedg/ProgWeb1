@@ -7,6 +7,7 @@
 body {
   font-family: "lato", sans-serif;
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -108,4 +109,41 @@ ul {
   position: absolute;
   bottom: -2px;
   left: 4px;
+}
+.lower-container {
+  margin: 120px auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+}
+.stats {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 18px;
+}
+.stats .fa {
+  color: #f6a000;
+}
+.stat {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+.stat > p {
+  color: black;
+  font-size: 16px;
+  text-align: center;
+}
+.stat > h3 {
+  color: black;
+  margin-bottom: 8px;
+  text-align: center;
+}
+h2 {
+  color: black;
+  font-weight: bold;
+  text-align: center;
 }
